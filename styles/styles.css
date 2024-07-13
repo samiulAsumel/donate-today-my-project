@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap");
+
+/* root style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header style */
+.header {
+  background-image: linear-gradient(
+      0deg,
+      rgb(18, 18, 18),
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url("../assets/images/donation0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-areas:
+    "header-heading"
+    "header-paragraph" "header-button";
+  background-position: center;
+  width: 1440px;
+  height: 669px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.header-heading {
+  grid-area: header-heading;
+}
+
+.header-paragraph {
+  grid-area: header-paragraph;
+}
+
+.header-button {
+  grid-area: header-button;
+}
+
+.header-heading {
+  color: white;
+  font-family: "Playwrite PE", cursive;
+  justify-content: center;
+  align-items: center;
+  width: 826px;
+  height: 320px auto;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 79px;
+  letter-spacing: 0px;
+  margin-top: 174px;
+  margin-bottom: 20px;
+}
+
+.header-paragraph {
+  color: white;
+  font-family: "Playwrite PE", cursive;
+  justify-content: center;
+  align-items: center;
+  width: 826px;
+  height: 320px auto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.header-button {
+  border-radius: 5px;
+  background: rgb(255, 89, 89);
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.header-button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Playwrite PE", cursive;
+}
