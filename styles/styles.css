@@ -229,7 +229,7 @@ hr {
 
 .cards {
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .plans img {
@@ -280,4 +280,183 @@ hr {
 .container .btn {
   margin: 0;
   max-width: fit-content;
+}
+
+/* get my updates */
+.get-my-updates {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+
+.get-my-updates h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+}
+
+.get-my-updates p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  width: 791px;
+  margin: 0 auto;
+}
+
+/* subscription */
+.subscription {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 70px;
+  background: rgb(255, 244, 214);
+  width: 809px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 90px;
+}
+
+#email {
+  width: 50%;
+  width: 275px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.subscription .btn {
+  margin-bottom: 0;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 40px 0;
+  width: 100%;
+}
+
+footer h1 {
+  color: rgb(255, 89, 89);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  color: rgb(217, 219, 225);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .header,
+  .main {
+    width: 100%;
+  }
+
+  .header-heading,
+  .header-paragraph {
+    width: 90%;
+    font-size: 50px;
+  }
+
+  .header-paragraph {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .donate-today-heading h1,
+  .get-my-updates h1 {
+    font-size: 40px;
+  }
+
+  .donate-today-heading p,
+  .get-my-updates p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .donate-today-amount {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-donate-plan > h1 {
+    font-size: 40px;
+  }
+
+  .our-donate-plan > p {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .plans {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .header,
+  .main {
+    width: 100%;
+  }
+
+  .header-heading,
+  .header-paragraph {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .header-paragraph {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .donate-today-heading h1,
+  .get-my-updates h1 {
+    font-size: 35px;
+  }
+
+  .donate-today-heading p,
+  .get-my-updates p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .donate-today-amount {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .our-donate-plan > h1 {
+    font-size: 35px;
+  }
+
+  .our-donate-plan > p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .plans {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
