@@ -21,57 +21,57 @@
   display: grid;
   grid-template-areas: "header-heading" "header-paragraph" "header-button";
   background-position: center;
-  width: 1440px;
-  height: 669px auto;
+  width: 90rem;
+  height: 42rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  margin-top: 20px;
-  border-radius: 10px;
+  margin-top: 1.25rem;
+  border-radius: 0.625rem;
 }
 
 .header-heading {
   color: white;
   justify-content: center;
   align-items: center;
-  width: 826px;
-  height: 320px auto;
-  font-size: 65px;
+  width: 51.625rem;
+  height: 20rem auto;
+  font-size: 4.063rem;
   font-weight: 700;
-  line-height: 79px;
+  line-height: 4.938rem;
   letter-spacing: 0px;
-  margin-top: 164px;
-  margin-bottom: 20px;
+  margin-top: 10.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .header-paragraph {
   color: white;
   justify-content: center;
   align-items: center;
-  width: 826px;
-  height: 320px auto;
-  font-size: 18px;
+  width: 51.625rem;
+  height: 20rem auto;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.75rem;
   letter-spacing: 0px;
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin-top: 1.25rem;
+  margin-bottom: 2.188rem;
 }
 
 .btn {
-  border-radius: 5px;
+  border-radius: 0.313rem;
   background: rgb(255, 89, 89);
-  margin-top: 30px;
-  font-size: 20px;
+  margin-top: 1.875rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0px;
   text-align: center;
-  padding: 10px 20px;
-  margin-bottom: 151px;
+  padding: 0.625rem 1.25rem;
+  margin-bottom: 9.438rem;
   cursor: pointer;
   border: none;
   color: white;
@@ -85,14 +85,14 @@
 
 /* main style */
 .main {
-  width: 1440px;
-  height: 669px auto;
+  width: 90rem;
+  height: 41.813rem auto;
   margin: 0 auto;
-  margin-top: 20px;
-  border-radius: 10px;
+  margin-top: 1.25rem;
+  border-radius: 0.625rem;
   display: grid;
   grid-template-areas: "donate-today" "our-donate-plan" "image-details-1" "image-details-2" "get-my-updates" "subscription";
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .donate-today {
@@ -120,39 +120,39 @@
 }
 
 .common {
-  border: 2px solid black;
+  border: 0.125rem solid black;
 }
 
 /* donate today */
 
 .donate-today {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border: none;
 }
 
 .donate-today-heading h1 {
   color: rgb(18, 18, 18);
-  font-size: 45px;
+  font-size: 2.813rem;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 3.375rem;
   letter-spacing: 0px;
   text-align: center;
-  width: 357px;
+  width: 22.313rem;
   margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 40px;
+  margin-top: 4.375rem;
+  margin-bottom: 2.5rem;
 }
 
 .donate-today-heading p {
   color: rgb(112, 112, 112);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.75rem;
   letter-spacing: 0px;
   text-align: center;
-  width: 791px;
+  width: 49.438rem;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   margin: 0 auto;
 }
 
@@ -160,25 +160,25 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   max-width: 60%;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .donate-today-amount h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 36px;
+  line-height: 2.25rem;
   letter-spacing: 0px;
   text-align: center;
-  border: 1px solid black;
-  padding: 20px 20px;
-  border-radius: 5px;
-  width: 150px;
+  border: 0.063rem solid black;
+  padding: 1.25rem 1.25rem;
+  border-radius: 0.313rem;
+  width: 9.375rem;
   cursor: pointer;
-  height: 150px auto;
+  height: 9.375rem auto;
   margin: 0 auto;
   background: rgb(250, 250, 250);
 }
@@ -198,57 +198,57 @@ hr {
 
 /* our donate plan */
 .our-donate-plan > h1 {
-  font-size: 45px;
+  font-size: 2.813rem;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 3.375rem;
   letter-spacing: 0px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 
 .our-donate-plan > p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.75rem;
   letter-spacing: 0px;
   text-align: center;
-  width: 791px;
+  width: 49.438rem;
   margin: 0 auto;
 }
 
 .plans {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 0.625rem;
   max-width: 90%;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  border-radius: 5px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.313rem;
 }
 
 .cards {
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.625rem;
 }
 
 .plans img {
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 
 .plans h3 {
-  margin-bottom: 20px;
-  font-size: 24px;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 36px;
+  line-height: 2.25rem;
   letter-spacing: 0%;
   text-align: left;
 }
 
 .plans p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -256,7 +256,7 @@ hr {
 /* image style */
 .container {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   justify-content: center;
 }
 
@@ -266,13 +266,13 @@ hr {
 
 .container .image img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .container .text {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   justify-content: center;
   align-items: left;
 }
@@ -285,27 +285,27 @@ hr {
 /* get my updates */
 .get-my-updates {
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 5.625rem;
+  margin-bottom: 5.625rem;
   background-color: aliceblue;
-  border-radius: 10px;
-  padding: 40px 20px;
+  border-radius: 0.625rem;
+  padding: 2.5rem 1.25rem;
 }
 
 .get-my-updates h1 {
-  font-size: 45px;
+  font-size: 2.813rem;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 3.375rem;
   letter-spacing: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 
 .get-my-updates p {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.75rem;
   letter-spacing: 0px;
-  width: 791px;
+  width: 49.438rem;
   margin: 0 auto;
 }
 
@@ -314,22 +314,22 @@ hr {
   text-align: center;
   max-width: 100%;
   margin: 0 auto;
-  padding: 50px 70px;
+  padding: 3.125rem 4.375rem;
   background: rgb(255, 244, 214);
-  width: 809px;
-  height: 200px;
-  border-radius: 10px;
-  margin-bottom: 90px;
+  width: 50.563rem;
+  height: 12.5rem;
+  border-radius: 0.625rem;
+  margin-bottom: 5.625rem;
 }
 
 #email {
   width: 50%;
-  width: 275px;
-  padding: 10px 25px;
-  border-radius: 5px;
+  width: 17.188rem;
+  padding: 0.625rem 1.563rem;
+  border-radius: 0.313rem;
   border: none;
-  margin-bottom: 20px;
-  font-size: 18px;
+  margin-bottom: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .subscription .btn {
@@ -340,29 +340,29 @@ hr {
 footer {
   background-color: black;
   text-align: center;
-  padding: 40px 0;
+  padding: 2.5rem 0;
   width: 100%;
 }
 
 footer h1 {
   color: rgb(255, 89, 89);
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
-  line-height: 44px;
-  letter-spacing: 0.5px;
-  margin-bottom: 40px;
+  line-height: 2.75rem;
+  letter-spacing: 0.031rem;
+  margin-bottom: 2.5rem;
 }
 
 footer p {
   color: rgb(217, 219, 225);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   letter-spacing: 0%;
 }
 
 /* Tablet Styles */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .header,
   .main {
     width: 100%;
@@ -371,26 +371,26 @@ footer p {
   .header-heading,
   .header-paragraph {
     width: 90%;
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .header-paragraph {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .btn {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .donate-today-heading h1,
   .get-my-updates h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .donate-today-heading p,
   .get-my-updates p {
     width: 90%;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .donate-today-amount {
@@ -398,12 +398,12 @@ footer p {
   }
 
   .our-donate-plan > h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .our-donate-plan > p {
     width: 90%;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .plans {
@@ -412,7 +412,7 @@ footer p {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .header,
   .main {
     width: 100%;
@@ -421,26 +421,26 @@ footer p {
   .header-heading,
   .header-paragraph {
     width: 100%;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .header-paragraph {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .btn {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .donate-today-heading h1,
   .get-my-updates h1 {
-    font-size: 35px;
+    font-size: 2.188rem;
   }
 
   .donate-today-heading p,
   .get-my-updates p {
     width: 100%;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .donate-today-amount {
@@ -448,12 +448,12 @@ footer p {
   }
 
   .our-donate-plan > h1 {
-    font-size: 35px;
+    font-size: 2.188rem;
   }
 
   .our-donate-plan > p {
     width: 100%;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .plans {
